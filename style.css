@@ -52,7 +52,14 @@ body {
 .container font {
   font-size: 30px;
 }
-
+.container .logo {
+  width: 70px;
+}
+@media screen and (max-width: 450px) {
+  .container font {
+    font-size: 25px;
+  }
+}
 /* end navbar */
 
 /* scrolling */
